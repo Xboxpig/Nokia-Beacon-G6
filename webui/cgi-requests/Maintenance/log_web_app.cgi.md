@@ -64,13 +64,16 @@ Cookie: lang=en; lsid={LSID}; sid={SID}
 
 Body (encrypted):
 ```
-Status: Determines whether the custom syslog settings are applied to the running service.
+Status: Determines whether the custom syslog settings are applied to the running service. true or false
 ServerIPAddress: 0.0.0.0
 ServerPortNumber: 514
 RemoteLogLevel: Notice
 csrf_token
 ```
 Option -> localbuffer, localfileandremote, 
+Protocol (name/capitalization not confirmed)
+LocalFile (name/capitalization not confirmed)
+RemoteFile (name/capitalization not confirmed)
 
 
 Plaintext: `Status=true&RemoteLogLevel=7&ServerIPAddress=1.1.1.1&ServerPortNumber=514&csrf_token=AjGmhJcGBvTNeIAH`
